@@ -1,0 +1,50 @@
+/*padding to top and bottom of navbar*/
+.top-bottom{
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+/*navbar border radius*/
+.navbar.bd-radius{
+  border-radius: 0px;
+}
+
+/*margin fix on navbar to jumbotron*/
+.mg-bottom{
+  margin-bottom: 0px;
+}
+
+/*Padding fix for jumbotron*/
+.pd-top{
+  padding-top:0px;
+  margin-bottom:0px;
+  padding-bottom:0px
+}
+
+/*Background pic*/
+.bg-image{
+  display: flex;
+  background-image:url('http://img13.deviantart.net/a105/i/2015/223/b/0/marvel_vs_dc_poster_by_deffectx-d95a5a8.jpg');
+  background-size: cover;
+  height: 600px;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/*My Name on image*/
+.name{
+  position: absolute;
+  color: blue !important;
+  left:60.87rem;
+  padding-top:15.62rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.5rem;
+}
+
+.hi{
+  position: absolute;
+}
+
+.general-font{
+  font-family: 'Nunito', sans-serif;
+}
