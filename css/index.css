@@ -36,13 +36,15 @@
   position: absolute;
   color: blue !important;
   left:60.87rem;
-  padding-top:15.62rem;
+  top:15.62rem;
   font-family: 'Nunito', sans-serif;
   font-size: 2.5rem;
 }
 
 .hi{
   position: absolute;
+  display: inline-block;
+  padding: 3px;
 }
 
 .general-font{
