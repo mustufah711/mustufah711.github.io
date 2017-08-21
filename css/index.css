@@ -15,7 +15,7 @@
 
 /*navbar text size*/
 .text-size{
-  font-size: 20px;
+  font-size: 17px;
 }
 
 /*margin fix on navbar to jumbotron*/
@@ -34,10 +34,13 @@
 .bg-image{
   display: flex;
   background-image:url('http://cdn.wallpapersafari.com/59/33/AliI8N.png');
-  background-size: cover;
-  height: 650px;
+  background-size: auto 100%;
+  min-height: 650px;
   background-attachment: fixed;
   position: relative;
+  -moz-background-size: auto 100%;
+  -webkit-background-size: auto 100%;
+  -o-background-size: auto 100%;
 }
 
 /*My Name on image*/
