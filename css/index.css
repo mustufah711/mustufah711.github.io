@@ -9,6 +9,15 @@
   border-radius: 0px;
 }
 
+.navbar-right{
+  margin-right: 5px !important;
+}
+
+/*navbar text size*/
+.text-size{
+  font-size: 20px;
+}
+
 /*margin fix on navbar to jumbotron*/
 .mg-bottom{
   margin-bottom: 0px;
@@ -24,9 +33,9 @@
 /*Background pic*/
 .bg-image{
   display: flex;
-  background-image:url('http://img13.deviantart.net/a105/i/2015/223/b/0/marvel_vs_dc_poster_by_deffectx-d95a5a8.jpg');
+  background-image:url('http://cdn.wallpapersafari.com/59/33/AliI8N.png');
   background-size: cover;
-  height: 600px;
+  height: 650px;
   background-attachment: fixed;
   position: relative;
 }
@@ -34,17 +43,17 @@
 /*My Name on image*/
 .name{
   position: absolute;
-  color: blue !important;
-  left:60.87rem;
-  top:15.62rem;
+  color: black !important;
+  top:10.62rem;
   font-family: 'Nunito', sans-serif;
   font-size: 2.5rem;
 }
 
-.hi{
+.c-r-button{
   position: absolute;
   display: inline-block;
   padding: 3px;
+  top:22.62rem;
 }
 
 .general-font{
