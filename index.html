@@ -17,13 +17,12 @@
     <nav class="navbar bd-radius navbar-inverse mg-bottom">
       <div class="container-fluid top-bottom">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Mustufa Hussain</a>
+          <a class="navbar-brand general-font" href="#">Mustufa Hussain</a>
         </div>
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#">Home</a></li>
+        <ul class="nav navbar-nav navbar-right general-font">
+          <li><a href="#">Home</a></li>
           <li id="about-me-tab"><a href="#">About Me</a></li>
-          <li><a href="#">Experience</a></li>
-          <li><a href="#">Interest</a></li>
+          <li id="interest-tab"><a href="#">Interest</a></li>
         </ul>
       </div>
     </nav>
@@ -54,19 +53,25 @@
       <h1 id="about-me" class="text-center general-font">About Me</h1>
       <center><img class="img-responsive" src="mustufai.png" alt="personal photo" style="320px;height:320px;"></center>
       <div class="row text-center">
-        <div class="col-md-4">
-          <h6 class="general-font">Fun Things</h6>
-        </div>
-        <div class="col-md-4">
-          <h6 class="general-font">Real Friends</h6>
-        </div>
-        <div class="col-md-4">
-          <h6 class="general-font">Text Responses</h6>
+        <div class="general-font para-pad">
+          <p class="border-b">I am a fourth year student at Rutgers University studying<br> Computer Science and Mathematics.
         </div>
       </div>
     </div>
 
+    <script>
+      $(document).ready(function (){
+        $("#interest-tab").click(function(){
+          $('html,body').animate({
+            scrollTop: $("#interest").offset().top
+          }, 1500);
+        });
+      });
+    </script>
 
+    <div class="container">
+      <h1 id="interest" class="text-center general-font">Interest</h1>
+    </div>
 
   </body>
   </html>
