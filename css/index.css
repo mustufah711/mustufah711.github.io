@@ -1,7 +1,7 @@
 /*padding to top and bottom of navbar*/
 .top-bottom{
-  padding-top: 15px !important;
-  padding-bottom: 15px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
 }
 
 /*navbar border radius*/
@@ -58,4 +58,6 @@
 
 .border-b{
   border-bottom-style: thick;
+  border-bottom-width: 2px;
+  width:100%;
 }
