@@ -1,6 +1,6 @@
 /*padding to top and bottom of navbar*/
 .top-bottom{
-  padding-top: 5px !important;
+  padding-top: 10px !important;
   padding-bottom: 5px !important;
 }
 
@@ -13,9 +13,17 @@
   margin-right: 5px !important;
 }
 
+.navbar{
+  background-color: #B82128 !important;
+}
+
+a{
+  color: white;
+}
+
 /*navbar text size*/
 .text-size{
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /*margin fix on navbar to jumbotron*/
@@ -35,7 +43,7 @@
   display: flex;
   background-image:url('http://cdn.wallpapersafari.com/59/33/AliI8N.png');
   background-size: auto 100%;
-  min-height: 650px;
+  min-height: 700px;
   background-attachment: fixed;
   position: relative;
   -moz-background-size: auto 100%;
@@ -72,4 +80,13 @@
   border-bottom-style: thick;
   border-bottom-width: 2px;
   width:100%;
+}
+
+.pd-t{
+  padding-top: 30px;
+}
+
+.background-c{
+  background-color: black;
+  color:white;
 }

@@ -14,10 +14,10 @@
 
   <body>
     <!--Navigation Bar-->
-    <nav class="navbar bd-radius navbar-inverse mg-bottom">
+    <nav class="navbar bd-radius mg-bottom">
       <div class="container-fluid top-bottom">
         <ul class="nav navbar-nav navbar-right general-font text-size">
-          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Home</a></li>
           <li id="about-me-tab"><a href="#">About Me</a></li>
           <li id="interest-tab"><a href="#">Interest</a></li>
         </ul>
@@ -34,13 +34,13 @@
 
     </div>
 
-    <!--Scroll from about me tab to section, Jquery script -->
+    <!--Scroll different parts of site, Jquery script -->
     <script>
       $(document).ready(function (){
         $("#about-me-tab").click(function(){
           $('html,body').animate({
             scrollTop: $("#about-me").offset().top
-          }, 1500);
+          }, 1200);
         });
       });
 
@@ -48,7 +48,7 @@
         $("#interest-tab").click(function(){
           $('html,body').animate({
             scrollTop: $("#interest").offset().top
-          }, 1500);
+          }, 1200);
         });
       });
     </script>
@@ -62,14 +62,25 @@
           <p class="border-b">I am a fourth year student at Rutgers University studying
             <br> Computer Science and Mathematics.
             <br>I am lying my focus on Full Stack Development with experience in
-            <br>Android, Hybrid-mobile, Front-End and JAVA Back-End Development
+            <br>Hybrid-mobile, Android, Front-End and JAVA Back-End Development.
           </p>
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container pd-t background-c">
       <h1 id="interest" class="text-center general-font">Interest</h1>
+      <div class="row text-center">
+        <div class="col-md-6">
+          <h3 class="general-font">Fun Things</h3>
+          <p>I've always been an adventurous person. I enjoy Hiking,
+            <br>Mountain Biking, Archery, and White water rafting. I also play
+            <br>Intramural Frisbee and Soccer at Rutgers.
+        </div>
+        <div class="col-md-6">
+          <h3 class="general-font">Comics</h3>
+        </div>
+      </div>
     </div>
 
   </body>
