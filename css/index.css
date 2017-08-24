@@ -56,20 +56,17 @@ a{
 
 /*My Name on image*/
 .name{
-  position: absolute;
   color: black !important;
-  top:10.62rem;
   font-family: 'Nunito', sans-serif;
-  font-size: 10.5rem;
+  font-size: 8.5rem !important;
   margin: 0 auto;
 }
 
 .c-r-button{
-  position: absolute;
   display: inline-block;
   padding: 3px;
-  top:22.62rem;
   margin: 0 auto;
+  white-space: nowrap;
 }
 
 .general-font{
