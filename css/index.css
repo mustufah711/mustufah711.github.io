@@ -74,7 +74,7 @@ a{
 .name{
   color: #9c32bc !important;
   font-family: 'Nunito', sans-serif;
-  font-size: 10.5rem !important;
+  font-size: 8.5rem !important;
   /*
   width: 24em;
   white-space:nowrap;
@@ -100,12 +100,16 @@ a{
 }
 
 .c-r-button{
-  font-size: 35px;
+  font-size: 45px;
   padding-top: 10px;
 }
 
 .space{
   margin-right: 25px;
+}
+
+.fa:hover{
+  color:#9c32bc;
 }
 
 .general-font{
