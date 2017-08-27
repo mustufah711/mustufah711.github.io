@@ -57,8 +57,10 @@ a{
 
 /*Background pic*/
 .bg-image{
-  background-image:url('http://cdn.wallpapersafari.com/59/33/AliI8N.png');
+  background-image:url('https://artsy-media-uploads.s3.amazonaws.com/Og-95KqRWNk_NHaNVgY63g%2FView+of+Venice+from+Oscar+Boyson%27s+A+Short+History+of+the+Venice+Biennale+for+Artsy.jpg');
   min-height: 700px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .jumbotron{
