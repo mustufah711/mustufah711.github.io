@@ -148,8 +148,8 @@ i:hover{
   outline: none;
 }
 
-.c-r-button i:focus{
-  outline: none;
+a, a:visited, a:hover, a:active{
+  color:inherit;
 }
 
 .general-font{
