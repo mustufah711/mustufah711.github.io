@@ -188,7 +188,7 @@ a, a:visited, a:hover, a:active{
     position: relative;
 }
 
-.image {
+.img-circle {
   opacity: 1;
   display: block;
   width: 100%;
@@ -207,7 +207,7 @@ a, a:visited, a:hover, a:active{
   -ms-transform: translate(-50%, -50%)
 }
 
-.cheese:hover .image {
+.cheese:hover .img-circle {
   opacity: 0.3;
 }
 
@@ -218,4 +218,9 @@ a, a:visited, a:hover, a:active{
 .text {
   color: white;
   font-size: 16px;
+}
+
+.padding-0{
+  padding:0 !important;
+  margin:0!important;
 }
