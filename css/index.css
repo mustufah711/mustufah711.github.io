@@ -81,23 +81,7 @@ a{
   color: #9c32bc !important;
   font-family: 'Nunito', sans-serif;
   font-size: 9.5rem !important;
-  /*
-  width: 24em;
-  white-space:nowrap;
-  overflow:hidden;
-  -webkit-animation: type 10s steps(50, end);
-  animation: type 2.5s steps(50,end);
-  */
 }
-/*
-@keyframes type{
-    from { width: 24; }
-}
-
-@-webkit-keyframes type{
-    from { width: 0; }
-}
-*/
 
 @media only screen and (max-width: 450px) {
   .name{
@@ -128,12 +112,6 @@ a{
   }
 }
 
-.h{
-  width:1px;
-    word-wrap: break-word;
-    font-family: monospace; /* this is just for good looks */
-}
-
 .c-r-button{
   font-size: 45px;
   padding-top: 10px;
@@ -150,6 +128,10 @@ i:hover{
 
 a, a:visited, a:hover, a:active{
   color:inherit;
+}
+
+.about{
+  font-size: 5.5rem !important;
 }
 
 .general-font{
