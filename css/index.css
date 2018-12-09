@@ -57,12 +57,12 @@ body{
 }
 
 @media only screen and (max-width: 450px) {
-  .c-r-buttons{
+  .c-r-button{
     font-size: 30px !important;
   }
 }
 
-.c-r-buttons{
+.c-r-button{
   font-size: 45px;
   padding-top: 10px;
   color: white;
