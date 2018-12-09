@@ -2,6 +2,7 @@
 body{
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 0;
 }
 /*navbar border radius*/
 .navbar.bd-radius{
@@ -46,7 +47,7 @@ body{
   .name{
     padding-top:0px;
     font-size: 4.5rem !important;
-    color:blue !important;
+    color:white !important;
   }
 }
 
