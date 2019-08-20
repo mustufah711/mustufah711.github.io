@@ -35,6 +35,10 @@ body{
   }
 }
 
+.dot {
+  border-radius: 50% !important;
+}
+
 /*My Name on image*/
 .name{
   padding-top: 200px;
